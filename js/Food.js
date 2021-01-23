@@ -23,6 +23,21 @@ class Food {
     return this.foodStock;
   }
 
+  update(change) {
+    gameState = change;
+  }
+  bedroom() {
+    background(bedroom);
+  }
+  
+  garden() {
+    background(garden);
+  }
+
+  washroom() {
+    background(washroom);
+  }
+
   display() {
     var x = 80,
       y = 100;
